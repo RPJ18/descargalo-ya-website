@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>DescargaloYa - Películas, Series y Mucho Más...</title>
+
+	<link rel="icon" href="./img/iconos/descargaloya-v4.png">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="lib/jquery.min.js" defer></script>
+	<script src="lib/popper.min.js" defer></script>
+	<script src="lib/bootstrap.min.js" defer></script>
+	<script src="lib/slick.min.js" defer></script>
+	<script src="main.js" defer></script>
+</head>
+<body>
+	<header class="banner"></header>
+
+	<nav class="navbar navbar-expand-lg custom-navbar">
+	  <div class="container-fluid">
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  	  <span class="navbar-toggler-icon"></span>
+	  	</button>
+	  	
+	  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  	  <ul class="navbar-nav mx-auto">
+	  	    <li class="nav-item">
+	  	      <a class="nav-link" href="./">Inicio <span class="sr-only">(actual)</span></a>
+	  	    </li>
+	  	    <li class="nav-item">
+	  	      <a class="nav-link" href="./movies.html">Películas</a>
+	  	    </li>
+	  	    <li class="nav-item">
+	  	      <a class="nav-link" href="./series.html">Series</a>
+	  	    </li>
+	  	    <li class="nav-item">
+	  	      <a class="nav-link" href="./programs.html">Programas</a>
+	  	    </li>
+	  	    <li class="nav-item">
+	  	      <a class="nav-link" href="./tutorials.html">Tutoriales</a>
+	  	    </li>
+	  	  </ul>
+	  	  <!-- <form class="form-inline my-2 my-lg-0">
+	  	    <input class="form-control mr-sm-2 custom-navbar-search-input" type="search" placeholder="Search" aria-label="Search">
+	  	    <button class="custom-navbar-search-btn my-2 my-sm-0" type="submit">
+	  	    	<i class="fas fa-search"></i>
+	  	    </button>
+	  	  </form> -->
+	  	</div>
+	  </div>
+	</nav>
+
+	<section class="recents-slider">
+		<div class="card">
+			<div class="card-header">
+				<h4>Recien Agregadas</h4>
+			</div>
+			<div class="card-body">
+				<div class="slider-1">
+					<div>
+						<a href="./downloads/logan.html">
+							<img src="img/peliculas/logan.jpg" alt="">
+						</a>	
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/x-men-days-of-future-past.jpg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/deadpool-2.jpg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/iron-man-3.jpg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/bighero6.jpg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/tron-legacy.jpg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/ant-man-and-the-wasp.jpg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/batmanvsuperman.jpg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/capitan-america-civil-war.jpg" alt="">
+						</a>
+					</div>
+					<div>
+						<a href="./">
+							<img src="img/peliculas/the-incredibles-2.jpg" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="content">
+		<main>
+			<section class="movies">
+				<h4>Películas</h4>
+				<div class="grid-of-movies">
+					<a href="./downloads/logan.html">
+						<div class="movie">
+							<img src="img/peliculas/logan.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="movie">
+							<img src="img/peliculas/x-men-days-of-future-past.jpg" alt="">
+							<div class="title">
+								<h6>X-men - Days of future past</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="movie">
+							<img src="img/peliculas/tron-legacy.jpg" alt="">
+							<div class="title">
+								<h6>Tron - Legacy</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="movie">
+							<img src="img/peliculas/ant-man-and-the-wasp.jpg" alt="">
+							<div class="title">
+								<h6>Ant Man and The Wasp</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="movie">
+							<img src="img/peliculas/batmanvsuperman.jpg" alt="">
+							<div class="title">
+								<h6>Batman V Superman</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="movie">
+							<img src="img/peliculas/bighero6.jpg" alt="">
+							<div class="title">
+								<h6>Big Hero 6</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="movie">
+							<img src="img/peliculas/capitan-america-civil-war.jpg" alt="">
+							<div class="title">
+								<h6>Captain America - Civil war</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="movie">
+							<img src="img/peliculas/deadpool-2.jpg" alt="">
+							<div class="title">
+								<h6>Deadpool 2</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+            <div class="movie">
+              <img src="img/peliculas/kingsman-the-golden-circle.jpg" alt="">
+              <div class="title">
+                <h6>Kingsman - The golden circle</h6>
+              </div>
+            </div>
+          </a>
+          <a href="./">
+            <div class="movie">
+              <img src="img/peliculas/iron-man-3.jpg" alt="">
+              <div class="title">
+                <h6>Iron man 3</h6>
+              </div>
+            </div>
+          </a>
+          <a href="./">
+            <div class="movie">
+              <img src="img/peliculas/deadpool.jpg" alt="">
+              <div class="title">
+                <h6>Deadpool</h6>
+              </div>
+            </div>
+          </a>
+          <a href="./">
+            <div class="movie">
+              <img src="img/peliculas/the-incredibles-2.jpg" alt="">
+              <div class="title">
+                <h6>The incredibles 2</h6>
+              </div>
+            </div>
+          </a>
+				</div>
+				<div class="see-more">
+					<a href="./movies.html">Ver más</a>
+				</div>
+			</section>
+			
+			<section class="series">
+				<h4>Series</h4>
+				<div class="grid-of-series">
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="serie">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="see-more">
+					<a href="./series.html">Ver más</a>
+				</div>
+			</section>
+			
+			<!-- <section class="comics">
+				<h4>Comics</h4>
+				<div class="grid-of-comics">
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+					<a href="./">
+						<div class="comic">
+							<img src="img/logan-2017-poster-2.jpg" alt="">
+							<div class="title">
+								<h6>Logan</h6>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="see-more">
+					<a href="./comics.html">Ver más</a>
+				</div>
+			</section> -->
+		</main>
+
+		<aside>
+			<div class="sidebar">
+				<div class="social-zone">
+					<h4>Síguenos</h4>
+					<ul>
+						<li>
+							<!-- <i class="fas fa-facebook-f"></i> -->
+							<a href="./" class="fb">Facebook</a>
+						</li>
+						<li>
+							<!-- <i class="fas fa-twitter"></i> -->
+							<a href="./" class="tt">Twitter</a>
+						</li>
+						<li>
+							<!-- <i class="fas fa-google-plus-g"></i> -->
+							<a href="./" class="g-plus">Google Plus</a>
+						</li>
+					</ul>
+				</div>
+				<div class="recent-movies">
+					<h4>Ultimas Películas</h4>
+					<div class="grid-of-movies">
+						<a href="./downloads/logan.html">
+							<div class="movie">
+								<img src="img/peliculas/logan.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="movie">
+								<img src="img/peliculas/the-incredibles-2.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="movie">
+								<img src="img/peliculas/deadpool-2.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="movie">
+								<img src="img/peliculas/x-men-days-of-future-past.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="movie">
+								<img src="img/peliculas/tron-legacy.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="movie">
+								<img src="img/peliculas/batmanvsuperman.jpg" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="recent-series">
+					<h4>Ultimas Series</h4>
+					<div class="grid-of-series">
+						<a href="./">
+							<div class="serie">
+								<img src="img/logan-2017-poster-2.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="serie">
+								<img src="img/logan-2017-poster-2.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="serie">
+								<img src="img/logan-2017-poster-2.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="serie">
+								<img src="img/logan-2017-poster-2.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="serie">
+								<img src="img/logan-2017-poster-2.jpg" alt="">
+							</div>
+						</a>
+						<a href="javascript:void(0)">
+							<div class="serie">
+								<img src="img/logan-2017-poster-2.jpg" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="suscription-zone">
+					<h4>Suscripción</h4>
+					<div>
+						<p>
+							Suscríbete para recibir actualizaciones sobre nuevos aportes.
+							<form action="">
+								<input type="text" placeholder="Correo electrónico" class="email">
+							</form>
+						</p>
+					</div>
+				</div>
+				<div class="tutorials-zone">
+					<h4>Tutoriales</h4>
+					<div>
+						<p>
+							¿Quieres aprender a tener imagénes personalizadas en tus carpetas?, entonces dirígete a la sección de tutoriales.
+						</p>
+						<a href="./tutorials.html">Tutoriales</a>
+					</div>
+				</div>
+			</div>
+		</aside>
+	</div>
+
+	<footer>
+		<p>
+			&copy; 2018 DescargaloYa | Entretenimiento y Ocio | Aviso Legal
+		</p>
+	</footer>
+</body>
+</html>
